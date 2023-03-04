@@ -16,10 +16,8 @@ public class ReturnVoidController {
    * Sample method.
    *
    * @param value doc for the request body
-   * @return string data
    */
-  public String something(@RequestBody final String value) {
+  public void something(@RequestBody final String value) {
     // whatever
-    return null;
   }
 }
