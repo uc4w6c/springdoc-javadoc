@@ -11,12 +11,12 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("void")
 public class ReturnVoidController {
-  @GetMapping
   /**
    * Sample method.
    *
    * @param value doc for the request body
    */
+  @GetMapping
   public void something(@RequestBody final String value) {
     // whatever
   }
